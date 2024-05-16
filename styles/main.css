@@ -1,0 +1,137 @@
+.main{
+    width: 100%;
+    background-color: #f8fafc; 
+    margin-left: 90px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.2);
+    padding: 24px;
+    display: flex;
+    flex-direction: column; 
+    min-height: fit-content;
+}
+.main .header .description{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .header .description .info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.main .header .description .time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.main .header .title{
+    font-size: 17px;
+}
+.main .header .description p{
+    font-size: 13px;
+    color: #818a98;
+}
+.main .header .description .time i{
+    color: #66bb6a;
+}
+
+.main .header .description button{
+    padding: 8px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 10px 10px  rgba(0,0,0,0.2);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.main .header .description button > a{
+    text-decoration: none;
+}
+
+.main .header .description button:hover{
+    box-shadow: none;
+}
+
+.main .call .host{
+    position :relative;
+    margin-top: 20px;
+}
+.main .call .host img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: top;
+}
+.main .call .host .tag{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(1,1,1,0.2);
+    border-radius: 20px;
+}
+.main .call .clients{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.main .call .clients .client img{
+  width: 100%;
+  max-width: 200px;
+  max-height: 100px;
+  border-radius: 10px;
+}
+.main .call .clients .client {
+    position: relative;
+    margin-top: 20px;
+}
+.main .call .clients .client .tag{
+    position: absolute;
+    font-size: 14px;
+    bottom: 10px;
+    left: 50px;
+    color: white;
+    background-color: rgba(1,1,1,0.5);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.main .call .footer .controllers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+.main .call .footer .controllers .icon{
+    background-color: #fff;
+    padding: 8px 14px;
+    border-radius: 30px;
+    font-size: 22px;
+    color: #67707e;
+    box-shadow: 0 7px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.main .call .footer .controllers button{
+    vertical-align: middle;
+    padding: 15px 28px;
+    letter-spacing: 1.3px;
+    border-radius: 30px;
+    border: none;
+    background-color:#eb3d4b;
+    color: white;
+    box-shadow:  0 7px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: all o.3s ease;
+}
+
+.main .call .footer .controllers .icon.active,
+.main .call .footer .controllers .icon:hover {
+    background-color: #eb3d4b;
+    color: white;
+}
+.main .call .footer .controllers button:hover{
+    box-shadow: none;
+}

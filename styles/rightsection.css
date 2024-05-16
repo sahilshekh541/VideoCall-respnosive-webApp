@@ -1,0 +1,89 @@
+.user-messages{
+    width: 30%;
+    margin-left: 100px;
+}
+.right-section{
+    background-color: #f8fafc; 
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    padding: 24px;
+}
+.right-section .header >h2{
+    font-size: 18px;
+    text-align: center;
+}
+.right-section .header >p{
+    margin-top: 13px;
+    text-align: center;
+    font-size: 12px;
+    color: #818a98;
+}
+.right-section .chat .chat-box .user-profile img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 8px 10px rgba(0,0,0,0.3);
+}
+.right-section .chat .chat-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.right-section .chat .chat-box .user-detail {
+    width: 100%;
+    background-color: #fff;
+    margin-left: 10px;
+    padding: 10px 16px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.right-section .chat .chat-box .user-detail .username{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-section .chat .chat-box .user-detail .username > p{
+    color: #818a98;
+    font-size: 11px;
+}
+.right-section .chat .chat-box .user-detail .username > h6{
+    font-size: 13px;
+    color: #1263dd;
+}
+.right-section .chat .chat-box .user-detail .message > p{
+    font-size: 13px;
+}
+.right-section .chat .message-input{
+    display: flex;
+    align-items: center;
+    margin-top: 68px;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+.right-section .chat .message-input input{
+    padding: 0 10px;
+    flex: 1;
+    width: 0;
+    border: none;
+}
+.right-section .chat .message-input input:focus{
+    outline: none;
+}
+.right-section .chat .message-input .emoji,.send{
+    font-size: 18px;
+    padding: 6px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+.right-section .chat .message-input .emoji{
+    background-color: #e2a60e;
+}
+.right-section .chat .message-input .send{
+    padding: 8px 12px;
+    background-color: #1263dd;
+}
